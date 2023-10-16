@@ -2,7 +2,6 @@ package org.example;
 
 import java.util.Scanner;
 
-// Clase Vehiculo (clase base para los tipos de vehículos)
 class Vehiculo {
     private String tipo;
     private double velocidadPromedio;
@@ -22,6 +21,7 @@ class Vehiculo {
         return tiempoHoras;
     }
 }
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
